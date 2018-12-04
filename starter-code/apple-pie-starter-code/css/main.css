@@ -1,0 +1,124 @@
+/* open-sans-condensed-300 - latin */
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/open-sans-condensed-v12-latin-300.eot');
+  /* IE9 Compat Modes */
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url('../fonts/open-sans-condensed-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/open-sans-condensed-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/open-sans-condensed-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/open-sans-condensed-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/open-sans-condensed-v12-latin-300.svg#OpenSansCondensed') format('svg');
+  /* Legacy iOS */
+}
+
+/* open-sans-condensed-700 - latin */
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-condensed-v12-latin-700.eot');
+  /* IE9 Compat Modes */
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url('../fonts/open-sans-condensed-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/open-sans-condensed-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/open-sans-condensed-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/open-sans-condensed-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/open-sans-condensed-v12-latin-700.svg#OpenSansCondensed') format('svg');
+  /* Legacy iOS */
+}
+
+/* open-sans-condensed-300italic - latin */
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/open-sans-condensed-v12-latin-300italic.eot');
+  /* IE9 Compat Modes */
+  src: local('Open Sans Condensed Light Italic'), local('OpenSansCondensed-LightItalic'), url('../fonts/open-sans-condensed-v12-latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/open-sans-condensed-v12-latin-300italic.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/open-sans-condensed-v12-latin-300italic.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/open-sans-condensed-v12-latin-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/open-sans-condensed-v12-latin-300italic.svg#OpenSansCondensed') format('svg');
+  /* Legacy iOS */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 24px;
+  display: flex;
+  height: 100%;
+  margin:0;
+  align-items: center;
+  
+}
+main p{
+  padding-left:5rem;
+  padding-right:5rem;
+}
+.center {
+  margin: auto;
+  width: 70vw;
+}
+ul {
+  list-style: none;
+}
+ul li:before {
+  content: '-';  
+  padding-right: 5px;
+}
+h1 {
+  font-size: 5rem;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: cover;
+}
+section{
+  width: 100%;
+  padding-left:5rem;
+  padding-right:5rem;
+  border-top:2px solid #999;
+}
+ol {
+  counter-reset:zaehl;
+  list-style-type:none;
+}
+ol li:before {
+  content:counter(zaehl) ") ";
+  counter-increment:zaehl;
+}
+
+.how-to {
+  color:#999;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top:2rem;
+}
+.how-to i{
+  padding-right:1rem;
+}
+.how-to-2 {
+  line-height: 2rem;
+  color:#999;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top:2rem;
+}
+.how-to-2 i {
+  font-size: 4rem;
+}
+.how-to-2 span{
+  height: 100%;
+}
